@@ -1,5 +1,9 @@
 # virtual-context-proxy
 
+> **This project has moved to [lastreload/mnemonic-proxy](https://github.com/lastreload/mnemonic-proxy)** (0.2.0 and later).
+> 0.2 adds structured recall, tools on demand, llama-server with saved state, Claude Code / Codex ingress and an MCP recall server.
+> This repository keeps the 0.1.0 code for reference and is no longer updated.
+
 An OpenAI-compatible HTTP proxy that sits between a coding agent and a local
 [Strata](https://github.com/Niko1221/Strata) server and gives the agent a **virtual context**:
 the conversation can grow far beyond the physical window (e.g. 400K+ tokens of history on a
